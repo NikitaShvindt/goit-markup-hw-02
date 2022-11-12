@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif ;
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo:hover,
+.logo:focus {
+    color: #2196F3;
+}
+
+/* hero */
+
+
+/* site nav */
+
+.site-nav .link { 
+    color: #2196F3;
+}
+
+.site-nav .link:focus ,
+.site-nav .link:hover {
+    color: #212121;
+}
+
+.section-title { 
+    color:#212121;
+}
+
+/* feature */
+
+.feature .title {
+    color: #212121;
+}
+
+.btn {
+    cursor: pointer;
+}
