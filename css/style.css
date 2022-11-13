@@ -1,41 +1,107 @@
 body {
-    font-family: 'Roboto', sans-serif ;
-    color: #212121;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
+}
+
+/* logo */
+
+a.logo {
+  color: #2196f3;
+}
+
+span.logo {
+  color: #000000;
 }
 
 .logo:hover,
 .logo:focus {
-    color: #2196F3;
+  color: #2196f3;
 }
 
 /* hero */
 
-
 /* site nav */
 
-.site-nav .link { 
-    color: #2196F3;
+.site-nav .link {
+  color: #212121;
 }
 
-.site-nav .link:focus ,
+.site-nav .link:focus,
 .site-nav .link:hover {
-    color: #212121;
+  color: #2196f3;
 }
 
-.section-title { 
-    color:#212121;
+.auth-nav .link:focus,
+.auth-nav .link:hover {
+  color: #2196f3;
+}
+
+.auth-nav .link {
+  color: #212121;
+}
+/* main */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* our-team */
+
+.team-manager {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /* feature */
 
 .feature .title {
-    color: #212121;
+  color: #212121;
+}
+
+.btn:focus,
+.btn:hover {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .btn {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.title-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.title-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
